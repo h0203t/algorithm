@@ -8,9 +8,7 @@ public class Main {
 		int A = sc.nextInt();
 		int B = sc.nextInt();
 		
-		if(A > B) {
-			System.out.println(">");
-		}
+		if(A > B) System.out.println(">");
 		if(A < B) System.out.println("<");
 		if(A == B) System.out.println("==");
 	}
